@@ -30,7 +30,7 @@ services:
     volumes_from:
       - app
     environment:
-      VIRTUAL_HOST: piwik.enliven.se
+      - VIRTUAL_HOST
 
   cron:
     image: piwik
